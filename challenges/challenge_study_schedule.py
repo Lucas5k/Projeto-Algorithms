@@ -8,4 +8,5 @@ def study_schedule(permanence_period, target_time):
             return None
         if start <= target_time <= end:
             count += 1
+
     return count
